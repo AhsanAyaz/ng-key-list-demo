@@ -1,0 +1,18 @@
+.item {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  &__img {
+    margin-right: 10px;
+    img {
+      height: 40px;
+      width: 40px;
+    }
+  }
+  &--active {
+    background: #333;
+    color: white;
+  }
+}

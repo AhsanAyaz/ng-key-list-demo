@@ -1,0 +1,30 @@
+.users-page {
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgb(239, 241, 255);
+  padding: 40px;
+  &__loading {
+    text-align: center;
+  }
+  &__main {
+    &__heading {
+      text-align: center;
+    }
+    &__search {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      input {
+        padding: 10px 16px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+    &__list {
+      &__item {
+        margin-bottom: 10px;
+        display: block;
+      }
+    }
+  }
+}

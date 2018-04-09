@@ -1,0 +1,9 @@
+<div class="item" [class.item--active]="isActive">
+  <div class="item__img">
+    <img [src]="item.picture.thumbnail">
+  </div>
+  <div class="item__content">
+    <div class="item__content__name">{{item.name.first}} {{item.name.last}}</div>
+    <div class="item__content__email">{{item.email}}</div>
+  </div>
+</div>
